@@ -1,0 +1,140 @@
+body {
+    font-family: courier;
+    margin: 10;
+    padding: 10;
+    background-color: #e0e0d1;
+}
+.text-container {
+	text-align: center;
+    color: #39FF14; 
+}
+.typing-text {
+    font-size: 24px;
+    text-align: center;
+}
+
+.typed-text {
+    animation: typing 2s steps(2) infinite;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid #000; /* Simulates the cursor */
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+.cursor {
+    display: inline-block;
+    vertical-align: left;
+    opacity: 1;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+header {
+   background-image: url('background.gif');
+     background-position: center;
+	
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.background-image {
+    
+    background-size: center;
+	
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 28vh; /* Adjust the height as needed */
+}
+.profile-container {
+    text-align:left;
+	
+}
+
+.profile-image {
+    border-radius: 0.5%; /* Optional: Makes the image round */
+	border: 8px solid #000;
+    width:210px; /* Adjust the width as needed */
+    height: 210px; /* Adjust the height as needed */
+	
+	position: absolute;
+    top: 40px; /* Adjust to your desired position from the top */
+    left: 10px;
+	
+}
+nav {
+    background-color: #444;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 20px;
+}
+
+section h2 {
+    text-align: center;
+}
+.resume {
+    text-align: center;
+    margin: 20px;
+}
+
+.resume-download {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

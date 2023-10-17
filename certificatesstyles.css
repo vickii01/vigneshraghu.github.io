@@ -1,0 +1,74 @@
+body {
+    font-family: courier;
+    margin: 10;
+    padding: 10;
+    background-color: #e0e0d1;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+nav {
+    background-color: #444;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+section {
+    padding: 50px;
+	text-align: center;
+}
+
+section h2 {
+    text-align: center;
+}
+
+.certificate {
+    margin-bottom: 80px;
+}
+
+.certificate h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.certificate img {
+    max-width: 40%;
+	display: block;
+    margin: auto;
+    border: 1px solid #ddd; /* Optional border for images */
+    border-radius: 20px;
+	
+}
+
+.certificate p {
+    margin: 5px 0;
+	text-align: center;
+}
+
+footer {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
